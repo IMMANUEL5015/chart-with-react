@@ -1,0 +1,37 @@
+
+.line-root{
+    border: 1px solid #ccc;
+    padding: 1.4rem;
+    border-radius: 0.5rem;
+}
+
+.line-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line-title h3 {
+font-weight: 600;
+font-size: 1.2rem;
+line-height: 21px;
+
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #6B6B6B;
+}
+
+.line-icon {
+    display: flex;
+}
+
+.line-icon div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.line-icon div img {
+    margin: 0 0.4rem;
+}
