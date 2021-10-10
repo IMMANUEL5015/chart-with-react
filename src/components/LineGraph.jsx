@@ -1,6 +1,5 @@
 import React from "react";
 import { Line as LineChart, defaults } from "react-chartjs-2";
-import { datasets } from "../utils/dispatches";
 import GraphUtils from "../utils/graph.utils";
 import offLoadIcon from "../images/offloading.png";
 import LoadIcon from "../images/loading.png";
@@ -8,7 +7,7 @@ import "../styles/line.css";
 
 defaults.plugins.legend.display = false;
 
-const LineGraph = () => {
+const LineGraph = ({ datasets }) => {
   const options = {
     scales: {
       x: {
